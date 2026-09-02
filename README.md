@@ -9,7 +9,7 @@ Estructura de automatización de pruebas End-to-End (E2E) construida sobre la ap
 * **Framework de Automatización:** Playwright (Python Sync API)
 * **Test Runner:** Pytest
 * **Manejo de Entorno:** Python-dotenv
-* **Reporteo:** Allure Framework (Integración en Módulo 04)
+* **Reporteo:** Allure Framework
 
 ## 📁 Arquitectura del Proyecto
 
@@ -28,6 +28,7 @@ Estructura de automatización de pruebas End-to-End (E2E) construida sobre la ap
 └── requirements.txt       # Dependencias del proyecto
 ```
 ⚙️ Configuración del Entorno
+
 1. Requisitos Previos
 Python 3.10 o superior instalado.
 
@@ -48,6 +49,7 @@ source .venv/bin/activate
 # Iniciar e instalar dependencias
 pip install -r requirements.txt
 playwright install chromium
+
 3. Variables de Entorno
 Crea un archivo .env en la raíz del proyecto basándote en la plantilla .env.example:
 
