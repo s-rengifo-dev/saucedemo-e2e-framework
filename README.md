@@ -26,6 +26,7 @@ Estructura de automatización de pruebas End-to-End (E2E) construida sobre la ap
 ├── .gitignore             # Exclusión de credenciales y artefactos de ejecución
 ├── pytest.ini             # Configuración global del ejecutor de pruebas
 └── requirements.txt       # Dependencias del proyecto
+```
 ⚙️ Configuración del Entorno
 1. Requisitos Previos
 Python 3.10 o superior instalado.
